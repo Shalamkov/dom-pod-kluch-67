@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дом под ключ 67 — деревянные дома, бани, срубы и беседки в Смоленске и Смоленской области</title>
+  <meta name="description" content="Собственное производство домокомплектов. Дома из клеёного и норвежского бруса, мини-бруса, клеёного оцилиндрованного бревна и ручной рубки (Ø 30–80 см). Бани, срубы и беседки под ключ. Индивидуальные проекты, доставка и сборка нашими бригадами по Смоленску и Смоленской области.">
+  <meta name="keywords" content="дом под ключ 67, деревянные дома Смоленск, дома из бруса, клееный брус, домокомплекты, бани под ключ, срубы, беседки, Смоленская область">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Дом под ключ 67 — деревянные дома в Смоленске и области">
+  <meta property="og:description" content="Домокомплекты, бани, срубы и беседки под ключ из клеёного бруса и бревна. Проекты и размеры заказчика, доставка и сборка нашими бригадами.">
+  <meta property="og:image" content="img/exterior-1.jpg">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <!-- Шрифты Manrope + PT Serif подключены локально (@font-face в css/style.css), внешние CDN не используются -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== ШАПКА ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="brand" aria-label="Дом под ключ 67 — на главную">
+        <span class="brand__logo"><img src="img/logo.png" alt="Логотип Дом под ключ 67" width="44" height="44"></span>
+        <span class="brand__text">
+          <strong>Дом под ключ&nbsp;67</strong>
+          <small>деревянные дома · Смоленск</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация">
+        <a href="#about">О компании</a>
+        <a href="#products">Что строим</a>
+        <a href="#materials">Материалы</a>
+        <a href="#projects">Проекты</a>
+        <a href="#process">Этапы</a>
+        <a href="#dealers">Дилеры</a>
+        <a href="#contacts" class="nav__cta">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <!-- ЗАМЕНИТЬ НА РЕАЛЬНЫЙ: телефон (плейсхолдер) -->
+        <a class="header__phone" href="tel:+79000000000">+7 (900) 000-00-00</a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO: ВИДЕО-РУМ ТУР ===== -->
+    <section class="hero" id="home">
+      <div class="hero__media">
+        <!-- ВИДЕО-РУМТУР: файл /video/tour.mp4 (5 сек) НЕ входил в присланный ZIP.
+     Чтобы фон главного экрана проигрывался, загрузите tour.mp4 в папку /video/ проекта
+     (и переопубликуйте). Пока работает фолбэк — постер interior-living.jpg. -->
+        <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="metadata"
+               poster="/img/interior-living.jpg">
+          <source src="video/tour.mp4" type="video/mp4">
+        </video>
+        <div class="hero__scrim"></div>
+      </div>
+
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Собственное производство домокомплектов · Смоленск и Смоленская область</p>
+        <h1 class="hero__title">Деревянные дома, бани, срубы и беседки <span>под ключ</span></h1>
+        <p class="hero__subtitle">Клеёный и норвежский брус, мини-брус, клеёное оцилиндрованное бревно, ручная рубка Ø&nbsp;30–80&nbsp;см. Проектируем и изготавливаем полный комплект по проектам и размерам заказчика, доставляем и собираем нашими бригадами.</p>
+        <div class="hero__actions">
+          <a class="btn btn--accent" href="#contacts">Рассчитать стоимость</a>
+          <a class="btn btn--ghost" href="#projects">Смотреть проекты</a>
+        </div>
+        <p class="hero__note">Видео: рум-тур по гостиной дома из клеёного бруса</p>
+      </div>
+
+      <button class="hero__sound" id="soundToggle" type="button" aria-label="Включить звук видео">
+        <span class="hero__sound-icon" aria-hidden="true"></span>
+        <span class="hero__sound-text">Звук выкл.</span>
+      </button>
+
+      <a class="hero__scroll" href="#about" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- ===== ПРЕИМУЩЕСТВА ===== -->
+    <section class="features">
+      <div class="container features__grid">
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4l18 8v22L22 42 4 34V12l18-8z"/><path d="M4 12l18 8 18-8"/><path d="M22 20v22"/><path d="M12 18v5M32 18v5"/></svg>
+          </span>
+          <h3>Собственное производство</h3>
+          <p>Изготавливаем и реализуем собственные домокомплекты: полный комплект стен, перекрытий, стропильной системы и крепежа под ваш проект.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="16" width="42" height="14" rx="2"/><path d="M9 16v6M15 16v4M21 16v6M27 16v4M33 16v6M39 16v4"/><path d="M10 36h28M14 30v6M24 30v6M34 30v6"/></svg>
+          </span>
+          <h3>Проекты и размеры заказчика</h3>
+          <p>Строим по готовым проектам и по индивидуальным размерам: дом любой площади и планировки — от компактной бани до коттеджа.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="14" width="24" height="18" rx="2"/><path d="M28 22h7l9 6v4h-6"/><circle cx="13" cy="36" r="3"/><circle cx="35" cy="36" r="3"/><path d="M8 24v-6M12 24v-3"/></svg>
+          </span>
+          <h3>Доставка и сборка бригадами</h3>
+          <p>Отправляем комплекты по Смоленску, Смоленской области и соседним регионам. Сборку выполняют наши бригады.</p>
+        </article>
+        <article class="feature">
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6L12 24h7l-7 13h24l-7-13h7L24 6z"/><path d="M24 37v6"/></svg>
+          </span>
+          <h3>Натуральное дерево</h3>
+          <p>Стены и отделка из дуба, ясеня, кедра, лиственницы, сосны, липы, ольхи, платана и кипариса — по вашему выбору.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== О КОМПАНИИ ===== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">О компании</p>
+          <h2 class="section__title">«Дом под ключ 67» — деревянное домостроение в Смоленске</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__media">
+            <img src="img/exterior-1.jpg" alt="Дом из клеёного бруса, построенный компанией Дом под ключ 67" loading="lazy">
+          </div>
+          <div class="about__body">
+            <p>Мы занимаемся продажей и реализацией собственной продукции: деревянных домокомплектов, бань, срубов и беседок под ключ. Производство стеновых комплектов ведётся из качественного пиломатериала камерной сушки — под каждый объект мы подбираем технологию и породу дерева.</p>
+            <p>Вам не нужно искать подрядчиков по отдельности: мы закрываем весь цикл — <b>проект, изготовление полного комплекта, доставку и сборку нашими бригадами</b>. Работаем в Смоленске и по всей Смоленской области.</p>
+            <ul class="about__list">
+              <li>Полный комплект дома и бани по проекту — без «докупайте сами»</li>
+              <li>Клеёный брус, бревно и ручная рубка без мостиков холода</li>
+              <li>Отделка деревом ценных пород</li>
+              <li>Прямые цены от производителя</li>
+            </ul>
+            <a class="btn btn--primary" href="#contacts">Обсудить ваш проект</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ЧТО МЫ СТРОИМ ===== -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Продукция</p>
+          <h2 class="section__title">Что мы строим под ключ</h2>
+          <p class="section__lead">Дома, бани, срубы и беседки — из нашего домокомплекта на вашем участке.</p>
+        </div>
+        <div class="products__grid">
+          <article class="card">
+            <a class="card__img" href="#projects"><img src="img/exterior-1.jpg" alt="Дом из клеёного бруса под ключ" loading="lazy"></a>
+            <div class="card__body">
+              <h3>Дома из бруса</h3>
+              <p>Клеёный брус, норвежский брус и мини-брус. Дома и коттеджи для постоянного проживания и дачи — под ключ.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__img" href="#projects"><img src="img/banya.jpg" alt="Сруб из оцилиндрованного бревна" loading="lazy"></a>
+            <div class="card__body">
+              <h3>Срубы из бревна</h3>
+              <p>Клеёное оцилиндрованное бревно и ручная рубка диаметром от 30 до 80 см. Классические тёплые срубы.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__img" href="#projects"><img src="img/interior-kitchen.jpg" alt="Интерьер и отделка деревом ценных пород" loading="lazy"></a>
+            <div class="card__body">
+              <h3>Бани под ключ</h3>
+              <p>Бани из бруса и бревна: парная, моечная, комната отдыха. Полный комплект и сборка нашими бригадами.</p>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__img" href="#projects"><img src="img/besedka.jpg" alt="Беседка из бруса с деревянной отделкой" loading="lazy"></a>
+            <div class="card__body">
+              <h3>Беседки и малые формы</h3>
+              <p>Беседки, террасы и навесы из бруса с отделкой из натурального дерева — под ваш размер и стиль.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== МАТЕРИАЛЫ ===== -->
+    <section class="section materials" id="materials">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Технологии</p>
+          <h2 class="section__title">Материалы стен</h2>
+          <p class="section__lead">Подберём технологию под бюджет, назначение и архитектуру вашего дома.</p>
+        </div>
+        <div class="materials__grid">
+          <article class="m-card"><h3>Клеёный брус</h3><p>Стабильная геометрия, минимальная усадка, гладкая поверхность стен. Подходит для домов сложной архитектуры.</p></article>
+          <article class="m-card"><h3>Норвежский брус</h3><p>Лафет с «норвежским» чашковым замком — плотное соединение без мостиков холода, благородный профиль стен.</p></article>
+          <article class="m-card"><h3>Мини-брус</h3><p>Лёгкий и бюджетный материал для дачных домов, бань и хозяйственных построек.</p></article>
+          <article class="m-card"><h3>Клеёное оцилиндрованное бревно</h3><p>Ровное бревно заводского профиля: точная геометрия, минимум трещин, красивый фасад.</p></article>
+          <article class="m-card m-card--wide"><h3>Ручная рубка · Ø 30–80 см</h3><p>Классические срубы из бревна большого диаметра, рубленого вручную. Максимальное тепло, долговечность и аутентичный вид. Диаметр подбирается под климат и проект.</p></article>
+          <article class="m-card m-card--wide"><h3>Комбинированный брус</h3><p>Комбинированные решения из бруса и бревна: например, первый этаж — бревно ручной рубки, второй — клеёный брус. Сбалансируем цену и внешний вид.</p></article>
+        </div>
+
+        <div class="woods">
+          <h3 class="woods__title">Древесина для стен и внутренней отделки</h3>
+          <p class="woods__sub">Отделочный материал — по вашему выбору, из натуральных пород:</p>
+          <ul class="woods__chips">
+            <li>Дуб</li><li>Ясень</li><li>Кедр</li><li>Лиственница</li><li>Сосна</li><li>Липа</li><li>Ольха</li><li>Платан</li><li>Кипарис</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ПРОЕКТЫ / 3D-ВИЗУАЛИЗАЦИИ ===== -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Портфолио</p>
+          <h2 class="section__title">Наши дома и интерьеры</h2>
+          <p class="section__lead">3D-визуализации объектов: дом из клеёного бруса, бани, беседка и интерьеры с деревянной отделкой. Нажмите на фото, чтобы открыть галерею.</p>
+        </div>
+        <div class="gallery" id="gallery">
+          <figure class="g-item g-item--wide">
+            <img src="img/exterior-1.jpg" alt="Дом из клеёного бруса с террасой" loading="lazy" data-caption="Дом из клеёного бруса с террасой — экстерьер">
+          </figure>
+          <figure class="g-item">
+            <img src="img/interior-living.jpg" alt="Гостиная с камином в доме из клеёного бруса" loading="lazy" data-caption="Гостиная с панорамным окном и камином — рум-тур">
+          </figure>
+          <figure class="g-item">
+            <img src="img/interior-kitchen.jpg" alt="Кухня-гостиная с отделкой из дуба" loading="lazy" data-caption="Кухня-гостиная с отделкой из дуба">
+          </figure>
+          <figure class="g-item">
+            <img src="img/interior-bedroom.jpg" alt="Спальня с деревянной отделкой" loading="lazy" data-caption="Спальня в доме из клеёного бруса">
+          </figure>
+          <figure class="g-item">
+            <img src="img/banya.jpg" alt="Баня из оцилиндрованного бревна" loading="lazy" data-caption="Баня из оцилиндрованного бревна">
+          </figure>
+          <figure class="g-item">
+            <img src="img/besedka.jpg" alt="Беседка из бруса в вечернем саду" loading="lazy" data-caption="Беседка из бруса с деревянной отделкой">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Лайтбокс -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Просмотр изображения">
+      <button class="lightbox__close" id="lbClose" type="button" aria-label="Закрыть">✕</button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" type="button" aria-label="Предыдущее фото">‹</button>
+      <figure class="lightbox__stage">
+        <img id="lbImg" src="" alt="">
+        <figcaption id="lbCaption"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" id="lbNext" type="button" aria-label="Следующее фото">›</button>
+    </div>
+
+    <!-- ===== ЭТАПЫ РАБОТЫ ===== -->
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Как мы работаем</p>
+          <h2 class="section__title">От заявки до новоселья</h2>
+        </div>
+        <ol class="steps">
+          <li class="step"><span class="step__num">01</span><h3>Заявка и консультация</h3><p>Обсуждаем задачи, участок и бюджет. Помогаем выбрать технологию и породу дерева.</p></li>
+          <li class="step"><span class="step__num">02</span><h3>Проект и расчёт</h3><p>Готовый или индивидуальный проект — по вашим размерам. Фиксируем состав комплекта и стоимость.</p></li>
+          <li class="step"><span class="step__num">03</span><h3>Производство комплекта</h3><p>Изготавливаем полный домокомплект: стены, перекрытия, стропильная система, крепёж.</p></li>
+          <li class="step"><span class="step__num">04</span><h3>Доставка</h3><p>Отправляем комплект на ваш участок в Смоленске, области или соседних регионах.</p></li>
+          <li class="step"><span class="step__num">05</span><h3>Сборка под ключ</h3><p>Наши бригады собирают дом или баню на месте. Вы принимаете готовый объект.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== ДИЛЕРАМ ===== -->
+    <section class="section dealers" id="dealers">
+      <div class="container dealers__inner">
+        <div>
+          <p class="section__tag section__tag--light">Сотрудничество</p>
+          <h2 class="dealers__title">Приглашаем дилеров для продажи домокомплектов</h2>
+          <p class="dealers__text">Продавайте наши деревянные домокомплекты, бани и срубы в своём регионе. Предоставляем образцы, каталоги, 3D-визуализации и поддержку на каждом объекте. Индивидуальные условия — обсудим.</p>
+          <a class="btn btn--accent" href="#contacts">Стать дилером</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== КОНТАКТЫ ===== -->
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__tag">Контакты</p>
+          <h2 class="section__title">Обсудим ваш проект?</h2>
+          <p class="section__lead">Оставьте заявку — перезвоним, рассчитаем стоимость дома, бани или беседки и ответим на вопросы.</p>
+        </div>
+        <div class="contacts__grid">
+          <div class="contacts__info">
+            <!-- ЗАМЕНИТЬ НА РЕАЛЬНЫЕ: контакты ниже — плейсхолдеры (телефон/WhatsApp, Telegram @dom67, e-mail info@dom67.ru).
+                 Продублированы: шапка сайта, блок контактов, подвал и js/main.js (CONFIG). -->
+            <ul class="c-list">
+              <li class="c-item">
+                <span class="c-item__label">Телефон / WhatsApp</span>
+                <a class="c-item__value" href="tel:+79000000000">+7 (900) 000-00-00</a>
+              </li>
+              <li class="c-item">
+                <span class="c-item__label">Telegram</span>
+                <a class="c-item__value" href="https://t.me/dom67" target="_blank" rel="noopener">@dom67</a>
+              </li>
+              <li class="c-item">
+                <span class="c-item__label">E-mail</span>
+                <a class="c-item__value" href="mailto:info@dom67.ru">info@dom67.ru</a>
+              </li>
+              <li class="c-item">
+                <span class="c-item__label">Регион работ</span>
+                <span class="c-item__value">г. Смоленск и Смоленская область: Вязьма, Рославль, Ярцево, Гагарин, Сафоново и другие районы</span>
+              </li>
+            </ul>
+          </div>
+          <form class="form" id="leadForm" novalidate>
+            <div class="form__row">
+              <label class="form__label" for="fName">Ваше имя</label>
+              <input class="form__input" id="fName" name="name" type="text" placeholder="Как к вам обращаться" required>
+            </div>
+            <div class="form__row">
+              <label class="form__label" for="fPhone">Телефон</label>
+              <input class="form__input" id="fPhone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
+            </div>
+            <div class="form__row">
+              <label class="form__label" for="fMsg">Что хотите построить?</label>
+              <textarea class="form__input" id="fMsg" name="msg" rows="4" placeholder="Например: дом из клеёного бруса 10×10 для постоянного проживания"></textarea>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">Отправить заявку</button>
+            <p class="form__note" id="formNote">Нажимая кнопку, вы соглашаетесь на обработку персональных данных.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== ПОДВАЛ ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__logo"><img src="img/logo.png" alt="Логотип Дом под ключ 67" width="40" height="40"></span>
+        <div>
+          <strong>Дом под ключ 67</strong>
+          <p>Деревянные дома, бани, срубы и беседки под ключ в Смоленске и Смоленской области.</p>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#about">О компании</a>
+        <a href="#products">Что строим</a>
+        <a href="#materials">Материалы</a>
+        <a href="#projects">Проекты</a>
+        <a href="#dealers">Дилеры</a>
+      </nav>
+      <div class="footer__meta">
+        <!-- ЗАМЕНИТЬ НА РЕАЛЬНЫЙ: телефон (плейсхолдер) -->
+        <a href="tel:+79000000000">+7 (900) 000-00-00</a>
+        <p>© <span id="year">2026</span> «Дом под ключ 67». Информация на сайте не является публичной офертой.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
