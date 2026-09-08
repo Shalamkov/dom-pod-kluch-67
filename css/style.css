@@ -384,9 +384,9 @@ textarea.form__input{resize:vertical;min-height:110px}
   .hero__sound{right:14px;bottom:96px}
 }
 
-/* ---------- Видео-ролик ---------- */
+
+/* ---------- Стоп-кадр рекламного ролика ---------- */
 .video{background:var(--white);border-block:1px solid var(--sand-2)}
 .video__stage{display:flex;justify-content:center}
-.video__reel{height:min(68vh,640px);width:auto;aspect-ratio:9/16;max-width:100%;border-radius:var(--radius);background:#140c04;box-shadow:var(--shadow-md);outline:none}
-.video__reel:focus-visible{box-shadow:0 0 0 3px var(--green)}
-@media (max-width:560px){.video__reel{height:auto;width:100%;aspect-ratio:9/16}}
+.video__poster{height:min(68vh,640px);width:auto;aspect-ratio:9/16;max-width:100%;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow-md)}
+@media (max-width:560px){.video__poster{height:auto;width:100%;aspect-ratio:9/16;object-fit:cover}}
